@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="883.75px" preserveAspectRatio="none" style="width:792px;height:883px;" version="1.1" viewBox="0 0 792 883" width="792.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1r96jw9hwu34s" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[defabee32bf27ab9b6d052a40ee1178b]
+cluster model_view_controller--><polygon fill="#FFFFFF" filter="url(#f1r96jw9hwu34s)" points="20,7.5,211.25,7.5,220,37.0117,223.75,37.0117,223.75,533.125,20,533.125,20,7.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="20" x2="220" y1="37.0117" y2="37.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="183.75" x="25" y="28.1665">model view contoller</text><!--MD5=[5472706a180a4e78bf457b997ee4bdd9]
+cluster spring_api_rest--><polygon fill="#FFFFFF" filter="url(#f1r96jw9hwu34s)" points="273.75,215,416.25,215,425,244.5117,771.25,244.5117,771.25,875.625,273.75,875.625,273.75,215" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="273.75" x2="425" y1="244.5117" y2="244.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="135" x="278.75" y="235.6665">java EE api rest</text><!--MD5=[854490cbfb8eedee4432d73740ee6d75]
+entity View--><path d="M126.875,287.5 L126.875,317.5 M126.875,302.5 L148.125,302.5 " fill="none" filter="url(#f1r96jw9hwu34s)" style="stroke:#000000;stroke-width:1.875;"/><ellipse cx="163.125" cy="302.5" fill="#9FB7E5" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="32.5" x="136.25" y="338.0713">View</text><!--MD5=[f855680bc6c989572ebb25245d27968d]
+entity Controller--><ellipse cx="131.25" cy="82.5" fill="#C4E4AB" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#718C00;stroke-width:1.875;"/><polygon fill="#718C00" points="126.25,67.5,133.75,61.25,131.25,67.5,133.75,73.75,126.25,67.5" style="stroke:#718C00;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="77.5" x="92.5" y="120.6665">Controller</text><!--MD5=[d98cb1d0eeb2b90d1ef52cfc0fcf4fea]
+entity Model--><ellipse cx="125" cy="460.625" fill="#F2AC4E" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="110" x2="140" y1="478.125" y2="478.125"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="47.5" x="101.25" y="498.7915">Model</text><!--MD5=[43a817812dddb31c7306ddcbea69bb00]
+entity UserService--><ellipse cx="587.5" cy="312.0117" fill="#B5BD68" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#718C00;stroke-width:1.875;"/><polygon fill="#718C00" points="582.5,297.0117,590,290.7617,587.5,297.0117,590,303.2617,582.5,297.0117" style="stroke:#718C00;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="95" x="540" y="350.1782">UserService</text><text fill="#000000" font-family="sans-serif" font-size="17.5" font-style="italic" lengthAdjust="spacing" textLength="97.5" x="538.75" y="288.1665">«Controller»</text><!--MD5=[826641e06137d8495458de0f8516e989]
+entity UserBO--><ellipse cx="587.5" cy="472.0117" fill="#B5BD68" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#718C00;stroke-width:1.875;"/><polygon fill="#718C00" points="582.5,457.0117,590,450.7617,587.5,457.0117,590,463.2617,582.5,457.0117" style="stroke:#718C00;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="61.25" x="556.875" y="510.1782">UserBO</text><text fill="#000000" font-family="sans-serif" font-size="17.5" font-style="italic" lengthAdjust="spacing" textLength="97.5" x="538.75" y="448.1665">«Controller»</text><!--MD5=[62e6a96eab6a0b4beb8811496ccdada4]
+entity UserVO--><path d="M615.625,790.1367 L615.625,820.1367 M615.625,805.1367 L636.875,805.1367 " fill="none" filter="url(#f1r96jw9hwu34s)" style="stroke:#000000;stroke-width:1.875;"/><ellipse cx="651.875" cy="805.1367" fill="#629EF9" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#000000;stroke-width:1.875;"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="53.75" x="614.375" y="840.708">UserVO</text><text fill="#000000" font-family="sans-serif" font-size="17.5" font-style="italic" lengthAdjust="spacing" textLength="56.25" x="613.125" y="781.2915">«View»</text><!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User--><ellipse cx="453.75" cy="803.8867" fill="#F2AC4E" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="438.75" x2="468.75" y1="821.3867" y2="821.3867"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="36.25" x="435.625" y="842.0532">User</text><text fill="#000000" font-family="sans-serif" font-size="17.5" font-style="italic" lengthAdjust="spacing" textLength="68.75" x="419.375" y="780.0415">«Model»</text><!--MD5=[131ef957277a2e64bc2c66aab59271f7]
+entity UserRepository--><ellipse cx="375" cy="643.125" fill="#B5BD68" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#718C00;stroke-width:1.875;"/><polygon fill="#718C00" points="370,628.125,377.5,621.875,375,628.125,377.5,634.375,370,628.125" style="stroke:#718C00;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="121.25" x="314.375" y="681.2915">UserRepository</text><!--MD5=[ac57f2fcb4bcd57e87370a1348b6995d]
+entity UserVOMapper--><ellipse cx="587.5" cy="643.125" fill="#B5BD68" filter="url(#f1r96jw9hwu34s)" rx="15" ry="15" style="stroke:#718C00;stroke-width:1.875;"/><polygon fill="#718C00" points="582.5,628.125,590,621.875,587.5,628.125,590,634.375,582.5,628.125" style="stroke:#718C00;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="121.25" x="526.875" y="681.2915">UserVOMapper</text><!--MD5=[01a2e04289eefa46970f9de88ad0aba9]
+link Controller to View--><path d="M134.2125,125.475 C136.75,151.575 140,185 140,185 C140,185 145.375,238.975 149.075,276.1625 " fill="none" id="Controller-to-View" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="149.7,282.4375,153.5824,270.7546,149.0923,276.2171,143.6298,271.727,149.7,282.4375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[7a25e1c0cf9f57ccf31195bd84e79339]
+link Controller to Model--><path d="M121.875,125 C112.675,154.4625 100,195 100,195 C100,195 100,353.75 100,353.75 C100,353.75 109.8875,399.9625 117.225,434.275 " fill="none" id="Controller-to-Model" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="118.5625,440.525,121.1039,428.4791,117.2578,434.4127,111.3242,430.5666,118.5625,440.525" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[6137f4216c2e3190e1b396a4f3f0263e]
+link View to Model--><path d="M147.5875,341.2875 C143.05,367.275 136.275,406.025 131.3375,434.3375 " fill="none" id="View-to-Model" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="130.25,440.5625,137.1036,430.3356,131.3209,434.4049,127.2515,428.6222,130.25,440.5625" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[40b323d05b0206e20cb13700dae8f90c]
+link UserService to UserBO--><path d="M587.5,354.1 C587.5,375.2375 587.5,401.15 587.5,423.1625 " fill="none" id="UserService-to-UserBO" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="587.5,429.8625,592.5,418.6125,587.5,423.6125,582.5,418.6125,587.5,429.8625" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[492b9101961326dd2a7200f44d6a8494]
+link UserBO to UserRepository--><path d="M538.6875,510.5125 C506.4125,535.2375 470,563.125 470,563.125 C470,563.125 438.475,592.9875 411.75,618.3125 " fill="none" id="UserBO-to-UserRepository" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="407.1625,622.65,418.7816,618.5806,411.7137,618.3665,411.9279,611.2986,407.1625,622.65" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[692e814394af21bc6ff657113b4013f9]
+link UserBO to UserVOMapper--><path d="M587.5,513.975 C587.5,544.825 587.5,586.8125 587.5,616.5625 " fill="none" id="UserBO-to-UserVOMapper" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="587.5,623.1,592.5,611.85,587.5,616.85,582.5,611.85,587.5,623.1" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[664b556d4b0e84211660120615ad97e3]
+link UserService to UserVO--><path d="M612.425,354 C632.9625,387.7 658.75,430 658.75,430 C658.75,430 681.25,623.125 681.25,623.125 C681.25,623.125 681.25,685.625 681.25,685.625 C681.25,685.625 671.25,724.375 671.25,724.375 C671.25,724.375 665.2875,739.9 658.6875,757.1 " fill="none" id="UserService-to-UserVO" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="656.425,762.975,665.1124,754.2519,658.6567,757.137,655.7716,750.6813,656.425,762.975" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[284747b1aae4cfb0c5924fd7f1842755]
+link UserBO to UserVO--><path d="M610.0375,514.1125 C634.475,558.525 670,623.125 670,623.125 C670,623.125 670,685.625 670,685.625 C670,685.625 660.6125,723.775 652.575,756.475 " fill="none" id="UserBO-to-UserVO" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="650.9875,762.9375,658.5398,753.2151,652.4865,756.8699,648.8317,750.8166,650.9875,762.9375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[50cc51307c03607c0d01643fb5cef4e9]
+link UserBO to User--><path d="M564.9625,514.1125 C540.525,558.525 505,623.125 505,623.125 C505,623.125 482.2875,702.625 467.1,755.775 " fill="none" id="UserBO-to-User" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="465.375,761.8,473.2658,752.3503,467.0873,755.7891,463.6484,749.6106,465.375,761.8" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[9efb451e63c178ecc5cc0d26ce91d3b7]
+link UserVOMapper to UserVO--><path d="M598.5125,685.7 C605.975,706.1125 615.9875,733.475 624.45,756.5875 " fill="none" id="UserVOMapper-to-UserVO" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="626.7875,762.9875,627.6299,750.7053,624.6459,757.1159,618.2353,754.1319,626.7875,762.9875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[c8d4d4c494409374f54d7d502850e8db]
+link UserVOMapper to User--><path d="M560.1125,685.7 C540.625,707.1 514.1625,736.1625 492.5125,759.9375 " fill="none" id="UserVOMapper-to-User" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="488.25,764.6125,499.5125,759.6407,492.4498,759.9838,492.1066,752.9211,488.25,764.6125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[6122a42ef3eb625904d9b9b0fc9fafda]
+link UserRepository to User--><path d="M391.125,685.7 C401.9125,705.8125 416.325,732.7 428.6,755.6 " fill="none" id="UserRepository-to-User" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="431.675,761.325,430.7865,749.046,428.731,755.8118,421.9653,753.7564,431.675,761.325" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[a7b64b6b06175f58836c314487e969c6]
+link model_view_controller to spring_api_rest--><path d="M223.8303,126.0555 C223.9267,126.3524 224.0236,126.6508 224.121,126.9509 C224.5107,128.151 224.9086,129.3766 225.3143,130.6262 C231.8051,150.6188 240.2852,176.7391 248.7641,202.8563 C257.243,228.9734 265.7207,255.0875 272.2068,275.0676 C272.6122,276.3163 273.0098,277.5411 273.3992,278.7405 C273.4965,279.0403 273.5933,279.3385 273.6896,279.6352 " fill="none" id="model_view_controller-spring_api_rest" style="stroke:#FFFFFF;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><!--MD5=[a8c5688f152d6e5437603282ab45c6f7]
+reverse link Controller to UserService--><path d="M176.925,123.55 C226.275,135 533.75,195 533.75,195 C533.75,195 553.075,236.575 568.55,269.8625 " fill="none" id="Controller-backto-UserService" style="stroke:#808080;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#808080" points="170.3125,121.7875,179.8758,129.5403,176.3476,123.4123,182.4755,119.8841,170.3125,121.7875" style="stroke:#808080;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="482.5" y="180.6189">«trace»</text><!--MD5=[c4bfce56f54c208c2c543fb64933b064]
+reverse link Controller to UserBO--><path d="M176.5,122.95 C225.5375,130.0875 547.5,162.5 547.5,162.5 C547.5,162.5 658.75,195 658.75,195 C658.75,195 658.75,353.75 658.75,353.75 C658.75,353.75 632.9625,396.05 612.425,429.75 " fill="none" id="Controller-backto-UserBO" style="stroke:#808080;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#808080" points="170.3125,121.7875,180.4582,128.7609,176.4571,122.9307,182.2873,118.9296,170.3125,121.7875" style="stroke:#808080;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="660" y="318.7439">«trace»</text><!--MD5=[ca2b06bf76e685e0c93a227cfe62a66b]
+reverse link View to UserVO--><path d="M165.45,347.5875 C200.1375,439.875 292.5,685.625 292.5,685.625 C292.5,685.625 524.95,763.525 610.3,792.125 " fill="none" id="View-backto-UserVO" style="stroke:#808080;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#808080" points="163.25,341.7375,162.5185,354.0268,165.4445,347.5896,171.8818,350.5156,163.25,341.7375" style="stroke:#808080;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="255" y="581.2439">«trace»</text><!--MD5=[2e60b85283eec68fb985af438b76834e]
+reverse link Model to User--><path d="M130.8625,510 C140.525,570.85 158.75,685.625 158.75,685.625 C158.75,685.625 215,724.375 215,724.375 C215,724.375 352.8125,769.475 419.0375,791.1375 " fill="none" id="Model-backto-User" style="stroke:#808080;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#808080" points="129.8375,503.575,126.6656,515.4704,130.8187,509.7475,136.5416,513.9006,129.8375,503.575" style="stroke:#808080;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="53.75" x="160" y="661.2439">«trace»</text><!--MD5=[1725327bb7132da04da07aa4309f8bbd]
+@startuml
+'https://plantuml.com/class-diagram
+
+!include skinParams.puml
+ skinparam linetype polyline
+package model_view_controller as "model view contoller"{
+
+boundary View #9FB7E5
+control Controller #C4E4AB
+entity Model
+
+Controller - -> View
+Controller - -> Model
+View - -> Model
+
+}
+
+package spring_api_rest as "java EE api rest" {
+
+control UserService <<Controller>>
+control UserService  <<Controller>>
+control UserBO <<Controller>>
+boundary UserVO <<View>>
+entity User <<Model>>
+control UserService
+control UserRepository
+control UserVOMapper
+
+UserService -down-> UserBO
+UserBO -down-> UserRepository
+UserBO -down-> UserVOMapper
+
+UserService .down.> UserVO
+UserBO .down.> UserVO
+UserBO .down.> User
+UserVOMapper .down.> UserVO
+UserVOMapper .down.> User
+UserRepository .down.> User
+
+
+}
+
+model_view_controller .[#hidden]down. spring_api_rest
+
+Controller <.[#Gray]. UserService :<<trace>>
+Controller <.[#Gray]. UserBO :<<trace>>
+View <.[#Gray]. UserVO :<<trace>>
+Model <.[#Gray]. User :<<trace>>
+
+
+
+
+
+@enduml
+
+@startuml
+
+
+skinparam {
+    BoundaryBackgroundColor #629EF9
+    BoundaryBorderColor black
+    BoundaryFontSize 12
+    BoundarySize 10
+    ControlBackgroundColor #b5bd68
+    ControlBorderColor #718c00
+    EntityBackgroundColor #F2AC4E
+    EntityBorderColor black
+}
+
+ skinparam linetype polyline
+package model_view_controller as "model view contoller"{
+
+boundary View #9FB7E5
+control Controller #C4E4AB
+entity Model
+
+Controller - -> View
+Controller - -> Model
+View - -> Model
+
+}
+
+package spring_api_rest as "java EE api rest" {
+
+control UserService <<Controller>>
+control UserService  <<Controller>>
+control UserBO <<Controller>>
+boundary UserVO <<View>>
+entity User <<Model>>
+control UserService
+control UserRepository
+control UserVOMapper
+
+UserService -down-> UserBO
+UserBO -down-> UserRepository
+UserBO -down-> UserVOMapper
+
+UserService .down.> UserVO
+UserBO .down.> UserVO
+UserBO .down.> User
+UserVOMapper .down.> UserVO
+UserVOMapper .down.> User
+UserRepository .down.> User
+
+
+}
+
+model_view_controller .[#hidden]down. spring_api_rest
+
+Controller <.[#Gray]. UserService :<<trace>>
+Controller <.[#Gray]. UserBO :<<trace>>
+View <.[#Gray]. UserVO :<<trace>>
+Model <.[#Gray]. User :<<trace>>
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: GB
+--></g></svg>

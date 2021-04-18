@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+!include skinParams.puml
+ skinparam linetype polyline
+package model_view_controller as "model view contoller"{
+
+boundary View #9FB7E5
+control Controller #C4E4AB
+entity Model
+
+Controller --> View
+Controller --> Model
+View --> Model
+
+}
+
+package spring_api_rest as "spring api rest" {
+
+control UsersControllerRest <<Controller>>
+control UserService  <<Controller>>
+control UserServiceImpl <<Controller>>
+boundary UserDTO <<View>>
+entity UserEntity <<Model>>
+control UsersControllerRest
+control UserRepository
+control UserMapper
+
+UsersControllerRest -down-> UserService
+UserService <|-down- UserServiceImpl
+UserServiceImpl -down-> UserRepository
+UserServiceImpl -down-> UserMapper
+
+UsersControllerRest .down.> UserDTO
+UserService .down.> UserDTO
+UserServiceImpl .down.> UserDTO
+UserServiceImpl .down.> UserEntity
+UserMapper .down.> UserDTO
+UserMapper .down.> UserEntity
+UserRepository .down.> UserEntity
+
+
+}
+
+model_view_controller .[#hidden]down. spring_api_rest
+
+Controller <.[#Gray]. UsersControllerRest :<<trace>>
+Controller <.[#Gray]. UserService :<<trace>>
+Controller <.[#Gray]. UserServiceImpl :<<trace>>
+View <.[#Gray]. UserDTO :<<trace>>
+Model <.[#Gray]. UserEntity :<<trace>>
+
+
+
+
+
+@enduml
