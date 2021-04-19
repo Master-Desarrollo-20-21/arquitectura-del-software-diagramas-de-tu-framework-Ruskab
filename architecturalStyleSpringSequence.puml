@@ -6,7 +6,6 @@
 
 actor Actor
 control UsersControllerRest <<Controller>>
-control UserService  <<Controller>>
 control UserServiceImpl <<Controller>>
 control UserMapper
 control UserRepository
@@ -16,8 +15,7 @@ entity UserEntity <<Model>>
 Actor -> UsersControllerRest : POST /users (body: userDto Json)
 UsersControllerRest -[#Gray]> UserDTO : <color:#Gray> get()
 UserDTO -[#Gray]-> UsersControllerRest
-UsersControllerRest -> UserService : create(userDto)
-UserService -> UserServiceImpl : create(userDto)
+UsersControllerRest -> UserServiceImpl : create(userDto)
 UserServiceImpl -> UserMapper : mapToEntity(userDto)
 UserMapper [#Gray]-> UserDTO : <color:#Gray> get()
 UserDTO -[#Gray]-> UserMapper
@@ -34,8 +32,7 @@ UserEntity -[#Gray]-> UserMapper
 UserMapper [#Gray]-> UserDTO : <color:#Gray> set()
 UserDTO -[#Gray]-> UserMapper
 UserMapper --> UserServiceImpl
-UserServiceImpl --> UserService
-UserService --> UsersControllerRest
+UserServiceImpl --> UsersControllerRest
 UsersControllerRest --> Actor : HTTP 200 (body: userDto Json)
 
 @enduml
